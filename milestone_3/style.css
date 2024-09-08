@@ -1,0 +1,115 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: #f1f5f8;
+    padding: 20px;
+    color: #343a40;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #033357;
+    text-decoration-thickness: 2px;
+}
+
+form {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #d1d6d6;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+fieldset {
+    border: 2px solid #033357;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #343a40;
+    background-color: rgb(240, 245, 245);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #343a40;
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #033357;
+    color: #343a40;
+    font-size: 18px;
+    width: calc(100% - 22px); /* Adjusted for padding */
+    box-sizing: border-box;
+}
+
+button {
+    display: inline;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #033357;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    font-size: 22px;
+    font-family: "Times New Roman", "Helvetica Neue", "Helvetica", "Arial";
+}
+
+button:hover {
+    background-color: #002440;
+    transition: background-color 0.3s ease;
+    color: #ffffff;
+    text-decoration: none;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #ffffff;
+}
+
+.profilepicture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#resumeOutput {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #033357;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #033357;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #033357;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
